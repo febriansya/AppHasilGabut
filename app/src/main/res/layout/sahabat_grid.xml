@@ -3,7 +3,7 @@
     xmlns:card_view="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="300dp"
-    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_gravity="top"
     android:layout_marginLeft="8dp"
     android:layout_marginTop="4dp"
@@ -14,15 +14,34 @@
 
 
     <TextView
+        android:layout_marginTop="16dp"
         android:textColor="@color/white"
+        android:layout_marginStart="12dp"
         android:id="@+id/name_sahabat"
         android:layout_width="wrap_content"
+        android:text="@string/nama_sahabat"
         android:layout_height="wrap_content"
-        tools:text="@String/nama_sahabat"/>
+        />
+
+    <Button
+        android:layout_marginTop="12dp"
+        android:id="@+id/button_detail"
+        android:layout_marginStart="320dp"
+        android:layout_width="40dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#F1F5FB"
+        android:layout_height="wrap_content"
+        android:text=">" />
 
 
-
-
+    <ImageView
+        android:id="@+id/image_sahabat"
+        android:layout_marginTop="69dp"
+android:layout_marginStart="12dp"
+        tools:src="@tools:sample/avatars"
+        android:src="@drawable/img"
+        android:layout_width="300dp"
+        android:layout_height="200dp"/>
 
 
 </androidx.cardview.widget.CardView>
