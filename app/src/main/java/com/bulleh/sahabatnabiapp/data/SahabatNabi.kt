@@ -40,6 +40,7 @@ object SahabatNabi {
         R.drawable.zubair,
         R.drawable.abdurrahman,
         R.drawable.saad,
+        R.drawable.said,
         R.drawable.ubaidah,
     )
 
